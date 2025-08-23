@@ -3,9 +3,11 @@ import aiohttp
 import json
 
 # Base URLs for the services
-SERVICE1_URL = "http://localhost:8080"
-SERVICE2_URL = "http://localhost:8081"
+SERVICE1_URL = ""
+SERVICE2_URL = ""
 
+# eg:---SERVICE1_URL = "https://ide-bbfeeedbcaf332013968deeebdeeafecbone.premiumproject.examly.io/proxy/8080/"
+# eg:---SERVICE2_URL = "https://ide-bbfeeedbcaf332013968deeebdeeafecbone.premiumproject.examly.io/proxy/8081/"
 class TestMicroservicesIntegration:
     
     # SERVICE 1 TESTS
